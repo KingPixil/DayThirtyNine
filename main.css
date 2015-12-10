@@ -1,0 +1,88 @@
+body {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #fbfbfb;
+    color: #333;
+    text-align: center;
+	/* Location of the image */
+  background-image: url('https://images.unsplash.com/photo-1436772414296-de1960161901?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a55804ddd210df662edd1a1e4675f6bf');
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fbfbfb;
+}
+
+h1  {
+    font-size: 46px;
+    margin: 200px 0 60px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+a {
+    color: #27a577;
+    text-decoration: none;
+}
+a:visited {
+    color: #27a577;
+}
+a:hover {
+    color: #31ce95;
+}
+
+.score {
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+#container {
+    padding-bottom: 40px;
+}
+
+canvas {
+;
+}
+
+#stat_container {
+    margin-top: -5px;
+    padding: 30px 0 30px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+	color:white;
+}
+
+.stat {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
